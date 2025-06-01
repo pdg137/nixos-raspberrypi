@@ -15,7 +15,7 @@
     # use fork to allow disabling modules introduced by mkRemovedOptionModule
     # and similar functions
     # see PR nixos:nixpkgs#398456 (https://github.com/NixOS/nixpkgs/pull/398456)
-    nixpkgs.url = "github:nvmd/nixpkgs/modules-with-keys-unstable";
+    nixpkgs.url = "github:pdg137/nixpkgs/modules-with-keys-unstable-disable-gst-plugins-bad";
     # nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     argononed = {
